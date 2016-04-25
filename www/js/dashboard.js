@@ -152,7 +152,7 @@ $.mobile.changePage($('#supervisor_inprogress_list'), { transition: "none", chan
 /*$(document).off('click', '#completed').on('click', '#completed', function() {
 //alert(region+'inprogress');
 //alert(region+'region');
-$.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/dash_completeda.php?',
+$.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/dash_completeda.php?',
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -194,7 +194,7 @@ alert('Network error has occurred please try again!');
 /*$(document).off('click', '#verified').on('click', '#verified', function() {
 //alert(region+'inprogress');
 //alert(region+'region');
-$.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/dash_await.php?',
+$.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/dash_await.php?',
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -236,7 +236,7 @@ alert('Network error has occurred please try again!');
 /*$(document).off('click', '#inprogress').on('click', '#inprogress', function() {
 //alert(region+'inprogress');
 //alert(region+'region');
-$.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/dashinprogressa.php?region='+region+"&user_id="+user_id+"&state="+state,
+$.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/dashinprogressa.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -335,7 +335,7 @@ var app = {
 	//alert(username+'username');
 	//alert(region+'region');
 		//alert(user_id+'user_id');
- $.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/gcm_id_user.php?gcm_regid='+gcm_regid+"&E_Mail="+E_Mail+"&username="+username+"&region="+region+"&user_id="+user_id,
+ $.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/gcm_id_user.php?gcm_regid='+gcm_regid+"&E_Mail="+E_Mail+"&username="+username+"&region="+region+"&user_id="+user_id,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -380,7 +380,7 @@ alert('Network error has occurred please try again!');
 
            alert(data.title + data.message);
 
-           $.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/count.php?region='+region+"&user_id="+user_id+"&state="+state,
+           $.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/count.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#update_to_inprogressw').serialize(),
   type: 'post',                   
   async: 'true',

@@ -34,7 +34,7 @@ $(document).off('click', '#submit').on('click', '#submit', function() {
     }else{
     if($('#username').val().length > 0 && $('#password').val().length > 0){
         console.log($('#check-watchuser').serialize());
-        $.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/index.php',
+        $.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/index.php',
             data:$('#check-watchuser').serialize(),
             type: 'post',                   
             async: 'true',
@@ -165,7 +165,7 @@ $(document).off('click', '#chngpass').on('click', '#chngpass', function() {
   //alert('chngpass');
             if($('#userchn').val().length > 0 && $('#chngpassword').val().length > 0){
         console.log($('#check_userpass').serialize());
-                    $.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/chngpass.php',
+                    $.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/chngpass.php',
                         data:$('#check_userpass').serialize(),
                         type: 'post',                   
                         async: 'true',

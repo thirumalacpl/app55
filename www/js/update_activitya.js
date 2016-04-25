@@ -294,7 +294,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('drop button value insert 84 85');
 $.ajax({
   type: "POST",
-  url: "http://fourthforce.in/verify/slim/slim_four_ripsss/delete.php?del_id="+del_id,
+  url: "http://staging.eimpressive.com/slim/slim_four_ripsssjs/delete.php?del_id="+del_id,
 
   data: formData,
   success: onSuccess,
@@ -457,7 +457,6 @@ $('#chatr').append(chatr);
 
 if(status == 'doc' && image !==''){
 //alert('doc');
-
 //var chatr='<div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#"  class=""><img src="http://fourthforce.in/verify/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/use.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
 //var chatr='<br><div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span><a href="#"  class="delete" id="'+activity_lok_obj.activity_log_id+'"><img src="images/primary/delete_icon1.png"  class="img_delete_icon" alt="" ></a>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#popupPhotoPortrait" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline im" data-transition="fade" id="'+activity_lok_obj.activity_log_id+'"><img src="http://fourthforce.in/verify/super/'+activity_lok_obj.document+'"  class="imgsize" alt="" ></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/primary/chat-icon.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">'+username_tvo+'</p></div></div> '
 var chatr='<br><div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span><a href="#"  class="delete" id="'+activity_lok_obj.activity_log_id+'"><img src="images/primary/delete_icon1.png"  class="img_delete_icon" alt="" ></a>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#popupPhotoPortrait" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline im" data-transition="fade" id="'+activity_lok_obj.document+'"><img src="http://fourthforce.in/verify/super/'+activity_lok_obj.document+'"  class="imgsize imguirot" alt="" ></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/primary/chat-icona.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">'+username_tvo+'</p></div></div> '
@@ -506,7 +505,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('drop button value insert 84 85');
 $.ajax({
   type: "POST",
-  url: "http://fourthforce.in/verify/slim/slim_four_ripsss/delete.php?del_id="+del_id,
+  url: "http://staging.eimpressive.com/slim/slim_four_ripsssjs/delete.php?del_id="+del_id,
 
   data: formData,
   success: onSuccess,
@@ -527,7 +526,7 @@ alert("Network error: Please check your internet connection");
 
 var settings = {
 
-  url: "http://fourthforce.in/verify/uploadas.php",
+  url: "http://staging.eimpressive.com/fourthforce/uploadas.php",
   method: "POST",
   allowedTypes:"jpg,png,gif",
   /*allowedTypes:"jpg,png,gif,doc,pdf,zip",*/
@@ -555,7 +554,7 @@ var formData = $("#callAjaxForm").serialize();
 
 $.ajax({
   type: "POST",
-url: "http://fourthforce.in/verify/slim/slim_four_ripsss/sdoc.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&res="+res+"&qualification_id="+qualification_id+"&user_id="+user_id,
+url: "http://staging.eimpressive.com/slim/slim_four_ripsssjs/sdoc.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&res="+res+"&qualification_id="+qualification_id+"&user_id="+user_id,
 
   data: formData,
   success: onSuccess,
@@ -642,7 +641,7 @@ var formData = $("#callAjaxForm").serialize();
 
 $.ajax({
   type: "POST",
-  url: "http://fourthforce.in/verify/slim/slim_four_ripsss/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
+  url: "http://staging.eimpressive.com/slim/slim_four_ripsssjs/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
 
   data: formData,
   success: onSuccess,
@@ -668,7 +667,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('drop button value insert 84 85');
 $.ajax({
   type: "POST",
-  url: "http://fourthforce.in/verify/slim/slim_four_ripsss/lifeint.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&qualification_id="+qualification_id+"&inte="+inte+"&inte_rat="+inte_rat+"&beh="+beh+"&beh_rat="+beh_rat+"&hab="+hab+"&hab_rat="+hab_rat,
+  url: "http://staging.eimpressive.com/slim/slim_four_ripsssjs/lifeint.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&qualification_id="+qualification_id+"&inte="+inte+"&inte_rat="+inte_rat+"&beh="+beh+"&beh_rat="+beh_rat+"&hab="+hab+"&hab_rat="+hab_rat,
 
   data: formData,
   success: onSuccess,
@@ -696,7 +695,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('updateactivitya msg');
 $.ajax({
   type: "POST",
-url: "http://fourthforce.in/verify/slim/slim_four_ripsss/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
+url: "http://staging.eimpressive.com/slim/slim_four_ripsssjs/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
 
   data: formData,
   success: onSuccess,
@@ -729,7 +728,7 @@ document.getElementById('remarkg').value = "";
  alert('Verification Record Submitted Successfully');
 //alert('Verification Record Submitted Successfully bfr sdsdf');
 // $('#myPopupr').hide();
-$.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/count.php?region='+region+"&user_id="+user_id+"&state="+state,
+$.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/count.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#update_to_inprogressw').serialize(),
   type: 'post',                   
   async: 'true',

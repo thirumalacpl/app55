@@ -53,7 +53,7 @@ var app = {
         var gcm_regid = data.registrationId;
         alert(gcm_regid+'gcmid');
 
-    $.ajax({url: 'http://fourthforce.in/verify/slim/slim_four_ripsss/gcm_id.php?gcm_regid='+gcm_regid,
+    $.ajax({url: 'http://staging.eimpressive.com/slim/slim_four_ripsssjs/gcm_id.php?gcm_regid='+gcm_regid,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',

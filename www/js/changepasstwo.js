@@ -35,7 +35,7 @@ if(ppassword == ''  ){
    // $.mobile.changePage($('#Volunteer'), { transition: "none", changeHash: true, reverse: false });
 }else if((ppassword == reppassword) && (n >= 8) ){
 
-$.ajax({url: "http://fourthforce.in/verify/slim/slim_four_ripsss/chngpass_final.php?PPassword="+ppassword+"&uusername="+uusername,
+$.ajax({url: "http://staging.eimpressive.com/slim/slim_four_ripsssjs/chngpass_final.php?PPassword="+ppassword+"&uusername="+uusername,
     data:$('#check_finalchange').serialize(),
     type: 'post',                   
     async: 'true',
